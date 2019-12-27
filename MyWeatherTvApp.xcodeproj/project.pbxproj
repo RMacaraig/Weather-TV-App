@@ -11,6 +11,17 @@
 		4E7036282389F1E600B95162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7036272389F1E600B95162 /* ViewController.swift */; };
 		4E70362B2389F1E600B95162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7036292389F1E600B95162 /* Main.storyboard */; };
 		4E70362D2389F1E800B95162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E70362C2389F1E800B95162 /* Assets.xcassets */; };
+		4E7036352389F3A400B95162 /* CityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7036342389F3A400B95162 /* CityDetails.swift */; };
+		4E7036372389F3D100B95162 /* Weather2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7036362389F3D100B95162 /* Weather2ViewController.swift */; };
+		4E7036392389F40700B95162 /* FeaturedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7036382389F40700B95162 /* FeaturedCollectionViewCell.swift */; };
+		4E7036402389F43100B95162 /* nyc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E70363B2389F43000B95162 /* nyc.jpg */; };
+		4E7036412389F43100B95162 /* toronto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E70363C2389F43000B95162 /* toronto.jpg */; };
+		4E7036422389F43100B95162 /* montreal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E70363D2389F43100B95162 /* montreal.jpg */; };
+		4E7036432389F43100B95162 /* sanfran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E70363E2389F43100B95162 /* sanfran.jpg */; };
+		4E7036442389F43100B95162 /* vancouver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E70363F2389F43100B95162 /* vancouver.jpg */; };
+		4E703646238A09AF00B95162 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E703645238A09AF00B95162 /* WeatherTableViewCell.swift */; };
+		4E703648238A09E400B95162 /* Weather1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E703647238A09E400B95162 /* Weather1TableViewController.swift */; };
+		4E70364A238A0A1300B95162 /* Weather1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E703649238A0A1300B95162 /* Weather1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +31,17 @@
 		4E70362A2389F1E600B95162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E70362C2389F1E800B95162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E70362E2389F1E800B95162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E7036342389F3A400B95162 /* CityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetails.swift; sourceTree = "<group>"; };
+		4E7036362389F3D100B95162 /* Weather2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather2ViewController.swift; sourceTree = "<group>"; };
+		4E7036382389F40700B95162 /* FeaturedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E70363B2389F43000B95162 /* nyc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nyc.jpg; sourceTree = "<group>"; };
+		4E70363C2389F43000B95162 /* toronto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toronto.jpg; sourceTree = "<group>"; };
+		4E70363D2389F43100B95162 /* montreal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = montreal.jpg; sourceTree = "<group>"; };
+		4E70363E2389F43100B95162 /* sanfran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanfran.jpg; sourceTree = "<group>"; };
+		4E70363F2389F43100B95162 /* vancouver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vancouver.jpg; sourceTree = "<group>"; };
+		4E703645238A09AF00B95162 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		4E703647238A09E400B95162 /* Weather1TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather1TableViewController.swift; sourceTree = "<group>"; };
+		4E703649238A0A1300B95162 /* Weather1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,10 @@
 		4E7036192389F1E600B95162 = {
 			isa = PBXGroup;
 			children = (
+				4E703649238A0A1300B95162 /* Weather1ViewController.swift */,
+				4E703647238A09E400B95162 /* Weather1TableViewController.swift */,
+				4E703645238A09AF00B95162 /* WeatherTableViewCell.swift */,
+				4E70363A2389F41900B95162 /* Images */,
 				4E7036242389F1E600B95162 /* MyWeatherTvApp */,
 				4E7036232389F1E600B95162 /* Products */,
 			);
@@ -57,8 +83,23 @@
 				4E7036292389F1E600B95162 /* Main.storyboard */,
 				4E70362C2389F1E800B95162 /* Assets.xcassets */,
 				4E70362E2389F1E800B95162 /* Info.plist */,
+				4E7036342389F3A400B95162 /* CityDetails.swift */,
+				4E7036362389F3D100B95162 /* Weather2ViewController.swift */,
+				4E7036382389F40700B95162 /* FeaturedCollectionViewCell.swift */,
 			);
 			path = MyWeatherTvApp;
+			sourceTree = "<group>";
+		};
+		4E70363A2389F41900B95162 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4E70363D2389F43100B95162 /* montreal.jpg */,
+				4E70363B2389F43000B95162 /* nyc.jpg */,
+				4E70363E2389F43100B95162 /* sanfran.jpg */,
+				4E70363C2389F43000B95162 /* toronto.jpg */,
+				4E70363F2389F43100B95162 /* vancouver.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,8 +160,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E7036402389F43100B95162 /* nyc.jpg in Resources */,
+				4E7036422389F43100B95162 /* montreal.jpg in Resources */,
 				4E70362D2389F1E800B95162 /* Assets.xcassets in Resources */,
+				4E7036442389F43100B95162 /* vancouver.jpg in Resources */,
+				4E7036432389F43100B95162 /* sanfran.jpg in Resources */,
 				4E70362B2389F1E600B95162 /* Main.storyboard in Resources */,
+				4E7036412389F43100B95162 /* toronto.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,8 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E703646238A09AF00B95162 /* WeatherTableViewCell.swift in Sources */,
+				4E7036372389F3D100B95162 /* Weather2ViewController.swift in Sources */,
 				4E7036282389F1E600B95162 /* ViewController.swift in Sources */,
+				4E7036392389F40700B95162 /* FeaturedCollectionViewCell.swift in Sources */,
+				4E703648238A09E400B95162 /* Weather1TableViewController.swift in Sources */,
+				4E7036352389F3A400B95162 /* CityDetails.swift in Sources */,
 				4E7036262389F1E600B95162 /* AppDelegate.swift in Sources */,
+				4E70364A238A0A1300B95162 /* Weather1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
